@@ -2,7 +2,7 @@ var snow=[];
 let gravity;
 let xOff;
 function setup() {
-  createCanvas(500,400);
+  createCanvas(displayWidth, displayHeight);
   gravity = createVector(0,0.05);
   xOff=0;
 }
