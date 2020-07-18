@@ -18,7 +18,7 @@ class Snowflake{
   }
   show(mousex){
     let sx = map(mousex,0,width,-10,10);
-    this.xOff = sin(this.angle)*0.002*sx*this.r;
+    this.xOff = sin(this.angle)*0.005*sx*this.r;
     this.vel.add(this.acc);
     this.vel.mult(map(this.r,2,20,0.95,1.02));
     this.pos.y+=this.vel.y;
